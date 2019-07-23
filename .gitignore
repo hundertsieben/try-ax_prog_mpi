@@ -19,4 +19,6 @@ pi
 pi.o
 /src/
 stamp-h1
+.configure.ac.swp
+.configure.swp
 
