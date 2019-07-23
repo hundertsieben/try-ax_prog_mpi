@@ -18,7 +18,7 @@ shift
 #  there's no ChangeLog,
 #  the ChangeLog is short, or
 #  there's newer tags
-
+touch ChangeLog
 if ( [[ -d ${top_src_dir}/.git/refs/tags ]] && \
       ( [[ ! -f ${distdir}/ChangeLog ]] || \
         [[ $(wc -l ${distdir}/ChangeLog | cut -f 1 -d ' ' ) -lt 10 ]] || \
