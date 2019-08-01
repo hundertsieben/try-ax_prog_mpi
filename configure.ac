@@ -72,12 +72,7 @@ AX_PROG_CC_MPI
 # MPI2_
 ])
 
-TA_WITH_LIB(
-  [MUMPS], 
-  [dmumps_c], 
-  [dmumps], 
-  [TA_PROG_CC_MPI]
-)
+TA_WITH_LIB([MUMPS], [dmumps_c], [dmumps], [TA_PROG_CC_MPI])
 
 AC_CHECK_HEADERS([inttypes.h])
 AC_CHECK_HEADERS([stdlib.h])
